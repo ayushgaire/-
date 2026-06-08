@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ナマステ カリカ 本店｜宮崎の本格インド料理レストラン</title>
+  <meta name="description" content="宮崎市日の出町の本格インド料理レストラン「ナマステ カリカ」。厳選スパイスと伝統製法で本場の味をご提供。店内飲食・テイクアウト・Uber Eats配達・団体予約・パーティー予約対応。営業10:30〜。English menu available.">
+  <meta name="keywords" content="インド料理,宮崎,宮崎市,ナマステカリカ,カレー,ナン,ビリヤニ,タンドリーチキン,Uber Eats,テイクアウト,本格インド料理,Indian restaurant Miyazaki">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://namastekalika.com/">
+
+  <meta property="og:type" content="restaurant">
+  <meta property="og:title" content="ナマステ カリカ 本店｜宮崎の本格インド料理レストラン">
+  <meta property="og:description" content="宮崎市日の出町の本格インド料理レストラン。厳選スパイスと伝統製法で本場の味をご提供。">
+  <meta property="og:image" content="https://namastekalika.com/images/ogp.jpg">
+  <meta property="og:url" content="https://namastekalika.com/">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:site_name" content="ナマステ カリカ">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ナマステ カリカ 本店｜宮崎の本格インド料理レストラン">
+  <meta name="twitter:description" content="宮崎市日の出町の本格インド料理レストラン。本場の味を宮崎で。">
+  <meta name="twitter:image" content="https://namastekalika.com/images/ogp.jpg">
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="apple-touch-icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "ナマステ カリカ 本店",
+    "alternateName": "Namaste Kalika",
+    "description": "宮崎市の本格インド料理レストラン。厳選したスパイスと伝統的な調理法で本場の味をご提供します。",
+    "image": "https://namastekalika.com/images/ogp.jpg",
+    "logo": "https://namastekalika.com/images/logo.png",
+    "url": "https://namastekalika.com/",
+    "telephone": "+81-985-72-9112",
+    "servesCuisine": ["インド料理", "Indian"],
+    "priceRange": "¥1,000〜¥2,000",
+    "address": {
+      "@type": "PostalAddress",
+      "postalCode": "880-0856",
+      "addressRegion": "宮崎県",
+      "addressLocality": "宮崎市",
+      "streetAddress": "日の出町5-1",
+      "addressCountry": "JP"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 31.9202, "longitude": 131.4239 },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "10:30", "closes": "15:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "17:00", "closes": "22:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday","Sunday"], "opens": "10:30", "closes": "22:00" }
+    ],
+    "acceptsReservations": "True",
+    "menu": "https://namastekalika.com/menu.html",
+    "hasDeliveryMethod": "Uber Eats",
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "reviewCount": "3" }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ローディング画面 -->
+  <div id="loader">
+    <div class="loader-mark">ナマステ カリカ</div>
+    <div class="loader-sub">NAMASTE KALIKA</div>
+    <div class="loader-bar"></div>
+  </div>
+
+  <!-- モバイル用 言語バー（上部固定） -->
+  <div class="mobile-lang-bar">
+    <span class="ml-label" data-i18n="lang.choose">言語を選択 / Choose Language</span>
+    <button data-lang-btn="ja">🇯🇵 日本語</button>
+    <button data-lang-btn="en">🇺🇸 English</button>
+  </div>
+
+  <!-- ヘッダー -->
+  <header id="header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">
+        <span class="logo-main">ナマステ カリカ</span>
+        <span class="logo-sub">Namaste Kalika</span>
+      </a>
+      <nav>
+        <ul id="navMenu">
+          <li><a href="#hero" data-i18n="nav.home">ホーム</a></li>
+          <li><a href="menu.html" data-i18n="nav.menu">メニュー</a></li>
+          <li><a href="#about" data-i18n="nav.about">店舗紹介</a></li>
+          <li><a href="#gallery" data-i18n="nav.gallery">ギャラリー</a></li>
+          <li><a href="#access" data-i18n="nav.access">アクセス</a></li>
+          <li><a href="#contact" data-i18n="nav.reserve">ご予約</a></li>
+          <li><a href="#curry" data-i18n="nav.curry">カレー</a></li>
+          <li><a href="#courses" data-i18n="nav.courses">コース</a></li>
+          <li><a href="https://www.ubereats.com/jp/store/%E3%83%8A%E3%83%9E%E3%82%B9%E3%83%86-%E3%82%AB%E3%83%AA%E3%82%AB-namaste-kalika/2wbSjC1jSwa8sBppzB5b-g" target="_blank" rel="noopener" class="nav-uber" data-i18n="nav.uber">Uber Eats</a></li>
+        </ul>
+      </nav>
+      <!-- 言語スイッチャー（デスクトップ・常時表示） -->
+      <div class="lang-switch">
+        <button data-lang-btn="ja"><span class="flag">🇯🇵</span> 日本語</button>
+        <button data-lang-btn="en"><span class="flag">🇺🇸</span> EN</button>
+      </div>
+      <button class="burger" id="burger" aria-label="メニューを開く">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ヒーローセクション -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <!-- 言語バナー -->
+      <div class="lang-banner">
+        <span class="lang-banner-label" data-i18n="lang.choose">言語を選択 / Choose Language</span>
+        <div class="lang-banner-btns">
+          <button data-lang-btn="ja">🇯🇵 日本語</button>
+          <button data-lang-btn="en">🇺🇸 English</button>
+        </div>
+      </div>
+
+      <p class="hero-eyebrow hero-stack">
+        <span data-i18n="hero.l1">AUTHENTIC</span>
+        <span data-i18n="hero.l2">INDIAN</span>
+        <span data-i18n="hero.l3">CUISINE</span>
+      </p>
+
+      <!-- ロゴ（円形・ゴールドシャドウ） -->
+      <div class="hero-logo">
+        <img src="images/logo.png" alt="ナマステ カリカ ロゴ / Namaste Kalika Logo" width="180" height="180">
+      </div>
+
+      <p class="hero-tagline" data-i18n="hero.tagline">新鮮なスパイス・伝統のレシピ・インドのおもてなし</p>
+
+      <h1 data-i18n="hero.title">本場の味を宮崎で。</h1>
+      <p class="hero-sub" data-i18n="hero.sub">スパイス香る本格インド料理をお楽しみください。</p>
+      <div class="hero-btns">
+        <a href="menu.html" class="btn btn-gold" data-i18n="hero.btnMenu">メニューを見る</a>
+        <a href="#contact" class="btn btn-outline" data-i18n="hero.btnReserve">席を予約する</a>
+        <a href="https://www.ubereats.com/jp/store/%E3%83%8A%E3%83%9E%E3%82%B9%E3%83%86-%E3%82%AB%E3%83%AA%E3%82%AB-namaste-kalika/2wbSjC1jSwa8sBppzB5b-g" target="_blank" rel="noopener" class="btn btn-red" data-i18n="hero.btnUber">Uber Eatsで注文</a>
+      </div>
+    </div>
+    <div class="scroll-cue"><span data-i18n="hero.scroll">SCROLL</span><span></span></div>
+  </section>
+
+  <!-- トラストバッジ -->
+  <section class="trust-bar">
+    <div class="container">
+      <div class="trust-grid reveal">
+        <span class="trust-item"><span class="tick">✓</span> <span data-i18n="trust.halal">ハラル対応</span></span>
+        <span class="trust-item"><span class="tick">✓</span> <span data-i18n="trust.veg">ベジタリアン対応</span></span>
+        <span class="trust-item"><span class="tick">✓</span> <span data-i18n="trust.family">ファミリー歓迎</span></span>
+        <span class="trust-item"><span class="tick">✓</span> <span data-i18n="trust.parking">無料駐車場</span></span>
+        <span class="trust-item"><span class="tick">✓</span> <span data-i18n="trust.authentic">本格インド料理</span></span>
+        <span class="trust-item"><span class="tick">✓</span> <span data-i18n="trust.staff">親切なスタッフ</span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 店舗紹介 -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-eyebrow" data-i18n="about.eyebrow">About Us</span>
+        <h2 class="section-title" data-i18n="about.title">ナマステ カリカについて</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-img-wrap reveal">
+          <img src="images/about.jpg" alt="ナマステ カリカ 店内イメージ">
+        </div>
+        <div class="about-text reveal">
+          <h3 data-i18n="about.h3">厳選スパイスと伝統の味を、宮崎で。</h3>
+          <p data-i18n="about.p1">ナマステ カリカは、宮崎で愛されるインド・ネパール料理レストランです。風味豊かなカレー、焼きたてのナン、タンドール料理、ハラル対応メニュー、ベジタリアン料理、そして温かいおもてなしをお楽しみいただけます。</p>
+          <p data-i18n="about.p2">ランチ、ディナー、ご家族でのお食事、各種お祝いの席まで、どんなシーンでも心を込めてお迎えいたします。皆様のご来店を心よりお待ちしております。</p>
+          <div class="about-types">
+            <span data-i18n="about.type1">インド料理</span>
+            <span data-i18n="about.type2">ネパール料理</span>
+            <span data-i18n="about.type3">ハラル対応</span>
+            <span data-i18n="about.type4">ベジタリアン対応</span>
+            <span data-i18n="about.type5">ファミリー歓迎</span>
+          </div>
+          <p class="about-lang-line" data-i18n="about.langLine">私たちの多言語対応スタッフが、日本語・英語・ヒンディー語・ネパール語でご案内いたします。</p>
+          <div class="about-badges">
+            <span data-i18n="about.badge1">女性オーナー経営</span>
+            <span data-i18n="about.badge2">家族連れ歓迎</span>
+            <span data-i18n="about.badge3">外国人歓迎</span>
+            <span data-i18n="about.badge4">英語対応可能</span>
+            <span data-i18n="about.badge5">テイクアウト対応</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 人気メニュー -->
+  <section class="popular" id="popular">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-eyebrow" data-i18n="popular.eyebrow">Popular Menu</span>
+        <h2 class="section-title" data-i18n="popular.title">人気メニュー</h2>
+      </div>
+      <div class="menu-grid">
+        <article class="menu-card reveal">
+          <div class="menu-card-img"><span class="img-upload-tag">images/dish1.jpg</span><img src="images/dish1.jpg" alt="バターチキンカレー"></div>
+          <div class="menu-card-body">
+            <h4 data-i18n="popular.d1.name">バターチキンカレー</h4>
+            <p data-i18n="popular.d1.desc">濃厚なトマトとバターの旨み。当店一番人気のまろやかカレー。</p>
+            <span class="menu-card-price">¥980</span>
+          </div>
+        </article>
+        <article class="menu-card reveal">
+          <div class="menu-card-img"><span class="img-upload-tag">images/dish2.jpg</span><img src="images/dish2.jpg" alt="チキンティッカ"></div>
+          <div class="menu-card-body">
+            <h4 data-i18n="popular.d2.name">チキンティッカ</h4>
+            <p data-i18n="popular.d2.desc">スパイスに漬け込みタンドール窯で焼き上げた香ばしい一品。</p>
+            <span class="menu-card-price">¥1,000</span>
+          </div>
+        </article>
+        <article class="menu-card reveal">
+          <div class="menu-card-img"><span class="img-upload-tag">images/dish3.jpg</span><img src="images/dish3.jpg" alt="ナンセット"></div>
+          <div class="menu-card-body">
+            <h4 data-i18n="popular.d3.name">ナンセット</h4>
+            <p data-i18n="popular.d3.desc">焼きたて熱々のナンとお好みのカレーをセットで。</p>
+            <span class="menu-card-price">¥1,300</span>
+          </div>
+        </article>
+        <article class="menu-card reveal">
+          <div class="menu-card-img"><span class="img-upload-tag">images/dish4.jpg</span><img src="images/dish4.jpg" alt="チーズナン"></div>
+          <div class="menu-card-body">
+            <h4 data-i18n="popular.d4.name">チーズナン</h4>
+            <p data-i18n="popular.d4.desc">とろけるチーズをたっぷり包んだ大人気のナン。</p>
+            <span class="menu-card-price">¥600</span>
+          </div>
+        </article>
+        <article class="menu-card reveal">
+          <div class="menu-card-img"><span class="img-upload-tag">images/dish5.jpg</span><img src="images/dish5.jpg" alt="ビリヤニ"></div>
+          <div class="menu-card-body">
+            <h4 data-i18n="popular.d5.name">ビリヤニ</h4>
+            <p data-i18n="popular.d5.desc">香り高いバスマティライスとスパイスの炊き込みご飯。</p>
+            <span class="menu-card-price">¥1,500</span>
+          </div>
+        </article>
+        <article class="menu-card reveal">
+          <div class="menu-card-img"><span class="img-upload-tag">images/dish6.jpg</span><img src="images/dish6.jpg" alt="タンドリーチキン"></div>
+          <div class="menu-card-body">
+            <h4 data-i18n="popular.d6.name">タンドリーチキン</h4>
+            <p data-i18n="popular.d6.desc">ヨーグルトとスパイスでマリネした本格タンドリー。</p>
+            <span class="menu-card-price">¥1,200</span>
+          </div>
+        </article>
+      </div>
+      <div class="center-btn reveal">
+        <a href="menu.html" class="btn btn-dark" data-i18n="popular.btn">すべてのメニューを見る</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- サービス紹介 -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-eyebrow" data-i18n="services.eyebrow">Our Services</span>
+        <h2 class="section-title" data-i18n="services.title">サービス紹介</h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal"><div class="service-icon">🍽</div><h4 data-i18n="services.s1">店内飲食</h4></div>
+        <div class="service-card reveal"><div class="service-icon">🥡</div><h4 data-i18n="services.s2">テイクアウト</h4></div>
+        <div class="service-card reveal"><div class="service-icon">📞</div><h4 data-i18n="services.s3">電話注文</h4></div>
+        <div class="service-card reveal"><div class="service-icon">🛵</div><h4 data-i18n="services.s4">Uber Eats配達</h4></div>
+        <div class="service-card reveal"><div class="service-icon">🎊</div><h4 data-i18n="services.s5">パーティー予約</h4></div>
+        <div class="service-card reveal"><div class="service-icon">👥</div><h4 data-i18n="services.s6">団体予約</h4></div>
+        <div class="service-card reveal"><div class="service-icon">🎉</div><h4 data-i18n="services.s7">イベント利用</h4></div>
+        <div class="service-card reveal"><div class="service-icon">👨‍👩‍👧‍👦</div><h4 data-i18n="services.s8">家族利用歓迎</h4></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ギャラリー -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-eyebrow" data-i18n="gallery.eyebrow">Gallery</span>
+        <h2 class="section-title" data-i18n="gallery.title">ギャラリー</h2>
+      </div>
+      <div class="gallery-grid reveal">
+        <div class="gallery-item wide"><img src="images/gallery1.jpg" alt="店内の様子"></div>
+        <div class="gallery-item"><img src="images/gallery2.jpg" alt="料理写真"></div>
+        <div class="gallery-item tall"><img src="images/gallery3.jpg" alt="スパイス料理"></div>
+        <div class="gallery-item"><img src="images/gallery4.jpg" alt="店内テーブル"></div>
+        <div class="gallery-item"><img src="images/gallery5.jpg" alt="カレーとナン"></div>
+        <div class="gallery-item wide"><img src="images/gallery6.jpg" alt="イベントの様子"></div>
+        <div class="gallery-item"><img src="images/gallery7.jpg" alt="タンドリー料理"></div>
+        <div class="gallery-item"><img src="images/gallery8.jpg" alt="デザート"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- パーティー予約 -->
+  <section class="party" id="party">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-eyebrow" data-i18n="party.eyebrow">Party & Group</span>
+        <h2 class="section-title" data-i18n="party.title">パーティー・団体予約</h2>
+      </div>
+      <p class="party-desc reveal" data-i18n="party.desc">歓送迎会、誕生日会、各種イベントなどお気軽にご相談ください。人数やご予算に合わせてご対応いたします。団体でのご利用も歓迎しております。</p>
+      <div class="reveal" style="text-align:center;">
+        <a href="tel:0985729112" class="btn btn-gold" data-i18n="party.btn">今すぐ電話する</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- パーティーコース -->
+  <section class="courses" id="courses">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-eyebrow" data-i18n="course.eyebrow">Party Courses</span>
+        <h2 class="section-title" data-i18n="course.title">宴会・パーティーコース</h2>
+        <p class="section-sub" data-i18n="course.sub">食べ放題・飲み放題付き。各種ご宴会に最適なコースをご用意しています。</p>
+      </div>
+
+      <div class="courses-grid">
+        <!-- 学生パーティーコース -->
+        <div class="course-card reveal">
+          <div class="course-head">
+            <h3 data-i18n="course.c1.name">学生パーティーコース</h3>
+            <div class="course-duration"><span>90</span> <span data-i18n="course.minutes">分</span></div>
+            <span class="course-allyoucan" data-i18n="course.allYouCan">食べ放題・飲み放題</span>
+          </div>
+          <div class="course-price">
+            <span class="cp-amount">¥2,500</span> <span class="cp-per" data-i18n="course.perPerson">お一人様</span>
+            <span class="cp-min" data-i18n="course.minGuests">2名様より承ります</span>
+          </div>
+          <div class="course-body">
+            <div class="ci-label" data-i18n="course.includes">コース内容</div>
+            <div class="course-items" data-course="c1"></div>
+          </div>
+          <div class="course-cta"><a href="tel:0985729112" class="btn btn-dark" data-i18n="party.btn">今すぐ電話する</a></div>
+        </div>
+
+        <!-- パーティーコース -->
+        <div class="course-card featured reveal">
+          <div class="course-head">
+            <h3 data-i18n="course.c2.name">パーティーコース</h3>
+            <div class="course-duration"><span>90</span> <span data-i18n="course.minutes">分</span></div>
+            <span class="course-allyoucan" data-i18n="course.allYouCan">食べ放題・飲み放題</span>
+          </div>
+          <div class="course-price">
+            <span class="cp-amount">¥2,980</span> <span class="cp-per" data-i18n="course.perPerson">お一人様</span>
+            <span class="cp-min" data-i18n="course.minGuests">2名様より承ります</span>
+          </div>
+          <div class="course-body">
+            <div class="ci-label" data-i18n="course.includes">コース内容</div>
+            <div class="course-items" data-course="c2"></div>
+          </div>
+          <div class="course-cta"><a href="tel:0985729112" class="btn btn-gold" data-i18n="party.btn">今すぐ電話する</a></div>
+        </div>
+
+        <!-- スペシャルパーティーコース -->
+        <div class="course-card reveal">
+          <div class="course-head">
+            <h3 data-i18n="course.c3.name">スペシャルパーティーコース</h3>
+            <div class="course-duration"><span>120</span> <span data-i18n="course.minutes">分</span></div>
+            <span class="course-allyoucan" data-i18n="course.allYouCan">食べ放題・飲み放題</span>
+          </div>
+          <div class="course-price">
+            <span class="cp-amount">¥4,300</span> <span class="cp-per" data-i18n="course.perPerson">お一人様</span>
+            <span class="cp-min" data-i18n="course.minGuests">2名様より承ります</span>
+          </div>
+          <div class="course-body">
+            <div class="ci-label" data-i18n="course.includes">コース内容</div>
+            <div class="course-items" data-course="c3"></div>
+          </div>
+          <div class="course-cta"><a href="tel:0985729112" class="btn btn-dark" data-i18n="party.btn">今すぐ電話する</a></div>
+        </div>
+      </div>
+
+      <!-- イベントバナー -->
+      <div class="course-banner reveal">
+        <h3 data-i18n="course.bannerTitle">こんなシーンにぴったり</h3>
+        <div class="course-occasions">
+          <span data-i18n="course.occ1">学生の集まり</span>
+          <span data-i18n="course.occ2">ご家族の食事</span>
+          <span data-i18n="course.occ3">お誕生日会</span>
+          <span data-i18n="course.occ4">会社の宴会</span>
+          <span data-i18n="course.occ5">グループでのお祝い</span>
+        </div>
+        <p class="course-group-note" data-i18n="course.groupNote">2名様〜34名様までのグループに対応しています。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- お客様の声 -->
+  <!-- Googleレビュー -->
+  <section class="greviews" id="reviews">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-eyebrow" data-i18n="greviews.eyebrow">Google Reviews</span>
+        <h2 class="section-title" data-i18n="greviews.title">お客様の口コミ</h2>
+        <p class="section-sub" data-i18n="greviews.sub">Googleに寄せられた実際の口コミをご紹介します。</p>
+      </div>
+      <div class="greview-carousel reveal">
+        <div class="greview-track" id="greviewTrack"></div>
+        <div class="greview-nav">
+          <button id="greviewPrev" aria-label="前へ">‹</button>
+          <button id="greviewNext" aria-label="次へ">›</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- アクセス -->
+  <section class="access" id="access">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-eyebrow" data-i18n="access.eyebrow">Access</span>
+        <h2 class="section-title" data-i18n="access.title">アクセス</h2>
+      </div>
+      <div class="access-grid">
+        <div class="access-info reveal">
+          <div class="info-row"><span class="info-label" data-i18n="access.shopLabel">店舗名</span><span class="info-value" data-i18n="access.shopName">ナマステ カリカ 本店</span></div>
+          <div class="info-row"><span class="info-label" data-i18n="access.addrLabel">住所</span><span class="info-value" data-i18n="access.addr" data-i18n-html>〒880-0856<br>宮崎県宮崎市日の出町5-1</span></div>
+          <div class="info-row"><span class="info-label" data-i18n="access.telLabel">電話番号</span><span class="info-value"><a href="tel:0985729112">0985-72-9112</a></span></div>
+          <div class="info-row"><span class="info-label" data-i18n="access.hoursLabel">営業時間</span><span class="info-value" data-i18n="access.hours">10:30〜営業開始</span></div>
+          <div class="info-row"><span class="info-label" data-i18n="access.priceLabel">価格帯</span><span class="info-value" data-i18n="access.price">¥1,000〜¥2,000</span></div>
+          <div class="access-buttons">
+            <a href="https://www.google.com/maps/search/?api=1&query=宮崎県宮崎市日の出町5-1+ナマステカリカ" target="_blank" rel="noopener" class="btn btn-gold" data-i18n="access.btnMap">Googleマップで開く</a>
+            <a href="tel:0985729112" class="btn btn-red" data-i18n="access.btnCall">電話する</a>
+          </div>
+        </div>
+        <div class="map-wrap reveal">
+          <iframe
+            src="https://maps.google.com/maps?q=%E5%AE%AE%E5%B4%8E%E7%9C%8C%E5%AE%AE%E5%B4%8E%E5%B8%82%E6%97%A5%E3%81%AE%E5%87%BA%E7%94%BA5-1&t=&z=16&ie=UTF8&iwloc=&output=embed"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="ナマステ カリカ 地図" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 営業時間 -->
+  <section class="hours" id="hours">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-eyebrow" data-i18n="hours.eyebrow">Business Hours</span>
+        <h2 class="section-title" data-i18n="hours.title">営業時間</h2>
+      </div>
+      <div class="hours-grid">
+        <div class="hours-card reveal">
+          <h3>🕙 <span data-i18n="hours.weekdays">月曜日 〜 金曜日</span></h3>
+          <div class="hours-row">
+            <span class="hr-label" data-i18n="hours.lunch">ランチ</span>
+            <span class="hr-time" data-i18n="hours.lunchTime">10:30 〜 15:00</span>
+          </div>
+          <div class="hours-row">
+            <span class="hr-label" data-i18n="hours.dinner">ディナー</span>
+            <span class="hr-time" data-i18n="hours.dinnerTime">17:00 〜 22:00</span>
+          </div>
+        </div>
+        <div class="hours-card reveal">
+          <h3>🕙 <span data-i18n="hours.weekend">土曜日・日曜日</span></h3>
+          <div class="hours-row">
+            <span class="hr-label" data-i18n="hours.sat">土曜日</span>
+            <span class="hr-time" data-i18n="hours.weekendTime">10:30 〜 22:00（通し営業）</span>
+          </div>
+          <div class="hours-row">
+            <span class="hr-label" data-i18n="hours.sun">日曜日</span>
+            <span class="hr-time" data-i18n="hours.weekendTime">10:30 〜 22:00（通し営業）</span>
+          </div>
+        </div>
+        <div class="hours-note reveal" data-i18n="hours.reserveNote">15:00〜17:00 はご予約のみ承ります。事前にお電話いただければ、この時間帯も開店いたします。</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 駐車場 -->
+  <section class="parking" id="parking">
+    <div class="container">
+      <div class="parking-icon reveal">🅿️</div>
+      <div class="parking-text reveal">
+        <span class="section-eyebrow" data-i18n="parking.eyebrow">Parking</span>
+        <h2 data-i18n="parking.title">無料駐車場完備</h2>
+        <p data-i18n="parking.text">お客様用の駐車スペースを、店舗の目の前（1〜5台分）にご用意しております。お車でのご来店も安心です。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ご予約・お問い合わせ（電話のみ） -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-eyebrow" data-i18n="reserve.eyebrow">Reservation &amp; Contact</span>
+        <h2 class="section-title" data-i18n="reserve.title">ご予約・お問い合わせ</h2>
+      </div>
+      <div class="reserve-wrap reveal">
+        <div class="reserve-icon">📞</div>
+        <h3 data-i18n="reserve.h3">ご予約・各種イベントはお電話で承ります</h3>
+        <p data-i18n="reserve.p">歓送迎会・誕生日会・各種パーティー・団体でのご利用など、あらゆるご要望に対応いたします。ご予約やご相談は、お電話にてお気軽にお問い合わせください。スタッフが丁寧にご案内いたします。</p>
+        <div class="reserve-services">
+          <span data-i18n="reserve.svc1">パーティー予約</span>
+          <span data-i18n="reserve.svc2">団体予約</span>
+          <span data-i18n="reserve.svc3">イベント利用</span>
+          <span data-i18n="reserve.svc4">テイクアウト</span>
+          <span data-i18n="reserve.svc5">店内飲食</span>
+          <span data-i18n="reserve.svc6">英語対応可能</span>
+        </div>
+        <a href="tel:0985729112" class="reserve-phone"><span class="ph-icon">📞</span>0985-72-9112</a>
+        <div class="reserve-hours" data-i18n="reserve.hours">営業時間 10:30〜　｜　お気軽にお電話ください</div>
+        <div style="margin-top:2rem;">
+          <a href="tel:0985729112" class="btn-call-big" data-i18n="reserve.btnCall">📞 タップして今すぐ電話する</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- カレー紹介 -->
+  <section class="curry" id="curry">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-eyebrow" data-i18n="curry.eyebrow">About Indian Curry</span>
+        <h2 class="section-title" data-i18n="curry.title">インドカレーについて</h2>
+      </div>
+      <div class="curry-intro reveal">
+        <p data-i18n="curry.intro">インドカレーは、数千年の歴史を持つ奥深い料理です。十数種類ものスパイスを一つひとつ手作業で調合し、素材の旨みを丁寧に引き出します。「カレー粉」を使うのではなく、その日の料理に合わせてスパイスをブレンドするのが本場の流儀。ナマステ カリカでは、伝統のレシピと熟練の技で、本場インドの味をそのままお届けしています。</p>
+      </div>
+
+      <div class="curry-grid">
+        <div class="curry-steps reveal">
+          <div class="curry-step">
+            <div class="step-num">1</div>
+            <div class="step-body">
+              <h4 data-i18n="curry.step1.h">スパイスを炒める（テンパリング）</h4>
+              <p data-i18n="curry.step1.p">クミンやマスタードシードなどのホールスパイスを油で熱し、香りを立たせます。この工程がカレーの香りの土台になります。</p>
+            </div>
+          </div>
+          <div class="curry-step">
+            <div class="step-num">2</div>
+            <div class="step-body">
+              <h4 data-i18n="curry.step2.h">玉ねぎ・生姜・にんにくを炒める</h4>
+              <p data-i18n="curry.step2.p">じっくりと炒めて甘みとコクを引き出します。インドカレーの深い味わいの秘訣です。</p>
+            </div>
+          </div>
+          <div class="curry-step">
+            <div class="step-num">3</div>
+            <div class="step-body">
+              <h4 data-i18n="curry.step3.h">トマトとパウダースパイスを加える</h4>
+              <p data-i18n="curry.step3.p">ターメリック、チリ、コリアンダーなどを加え、素材と一体になるまで煮込みます。</p>
+            </div>
+          </div>
+          <div class="curry-step">
+            <div class="step-num">4</div>
+            <div class="step-body">
+              <h4 data-i18n="curry.step4.h">主役の具材を煮込んで仕上げ</h4>
+              <p data-i18n="curry.step4.p">チキンや野菜を加え、スパイスの旨みを染み込ませてじっくり煮込み、完成です。</p>
+            </div>
+          </div>
+        </div>
+        <div class="curry-img-card reveal">
+          <img src="images/curry.jpg" alt="本格インドカレー">
+        </div>
+      </div>
+
+      <div class="spice-head reveal">
+        <span data-i18n="curry.spiceEyebrow">Natural Spices</span>
+        <h3 data-i18n="curry.spiceTitle">体にやさしい、天然のスパイス</h3>
+      </div>
+      <div class="spice-grid">
+        <div class="spice-card reveal">
+          <div class="spice-dot" style="background:rgba(230,164,23,0.18);">🟡</div>
+          <h5 data-i18n="curry.sp1.h">ターメリック</h5>
+          <p data-i18n="curry.sp1.p">鮮やかな黄色のスパイス。古くから健康によいとされ、抗酸化作用が注目されています。</p>
+        </div>
+        <div class="spice-card reveal">
+          <div class="spice-dot" style="background:rgba(199,91,57,0.18);">🔴</div>
+          <h5 data-i18n="curry.sp2.h">チリ</h5>
+          <p data-i18n="curry.sp2.p">程よい辛味と食欲をそそる香り。代謝を高めるとも言われる人気のスパイスです。</p>
+        </div>
+        <div class="spice-card reveal">
+          <div class="spice-dot" style="background:rgba(45,122,104,0.18);">🟢</div>
+          <h5 data-i18n="curry.sp3.h">クミン</h5>
+          <p data-i18n="curry.sp3.p">カレーの香りの中心。消化を助けるとされ、インド料理に欠かせない存在です。</p>
+        </div>
+        <div class="spice-card reveal">
+          <div class="spice-dot" style="background:rgba(196,134,10,0.18);">🟤</div>
+          <h5 data-i18n="curry.sp4.h">コリアンダー</h5>
+          <p data-i18n="curry.sp4.p">爽やかでまろやかな風味。スパイスの角をやわらげ、味に深みを与えます。</p>
+        </div>
+      </div>
+
+      <div class="curry-health reveal">
+        <h3 data-i18n="curry.health.h">自然の恵みを、おいしく健康に。</h3>
+        <p data-i18n="curry.health.p">当店のカレーは、人工的な添加物に頼らず、天然のスパイスと新鮮な食材を使って一から手作りしています。スパイスにはそれぞれ昔から受け継がれてきた健康への働きがあるとされ、おいしく召し上がりながら体にもやさしいのがインド料理の魅力です。ぜひ本場の味と香りを、心ゆくまでお楽しみください。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- フッター -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="logo-main">ナマステ カリカ</span>
+          <span class="logo-sub">Namaste Kalika</span>
+          <p data-i18n="footer.brandDesc">宮崎市で本格インド料理をご提供。本場の味を、心を込めて。</p>
+          <div class="footer-social">
+            <a href="#" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">IG</a>
+            <a href="https://www.ubereats.com/jp/store/%E3%83%8A%E3%83%9E%E3%82%B9%E3%83%86-%E3%82%AB%E3%83%AA%E3%82%AB-namaste-kalika/2wbSjC1jSwa8sBppzB5b-g" target="_blank" rel="noopener" aria-label="Uber Eats" title="Uber Eats">UE</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5 data-i18n="footer.infoTitle">店舗情報</h5>
+          <ul>
+            <li data-i18n="access.shopName">ナマステ カリカ 本店</li>
+            <li>〒880-0856</li>
+            <li data-i18n="access.addr" data-i18n-html>宮崎県宮崎市日の出町5-1</li>
+            <li><a href="tel:0985729112">TEL: 0985-72-9112</a></li>
+            <li data-i18n="footer.hours">営業時間: 10:30〜</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5 data-i18n="footer.menuTitle">メニュー</h5>
+          <ul>
+            <li><a href="index.html" data-i18n="nav.home">ホーム</a></li>
+            <li><a href="menu.html" data-i18n="nav.menu">メニュー</a></li>
+            <li><a href="#about" data-i18n="nav.about">店舗紹介</a></li>
+            <li><a href="#gallery" data-i18n="nav.gallery">ギャラリー</a></li>
+            <li><a href="#access" data-i18n="nav.access">アクセス</a></li>
+            <li><a href="#contact" data-i18n="nav.reserve">ご予約</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom" data-i18n="footer.copyright">© Namaste Kalika. All Rights Reserved.</div>
+    </div>
+  </footer>
+
+  <a href="tel:0985729112" class="float-call" aria-label="電話する">📞</a>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="閉じる">×</button>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="前へ">‹</button>
+    <img src="" id="lightboxImg" alt="拡大画像">
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="次へ">›</button>
+  </div>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/lang.js"></script>
+  <script src="js/reviews.js"></script>
+  <script src="js/img-labels.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

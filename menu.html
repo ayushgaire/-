@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>メニュー｜ナマステ カリカ 本店｜宮崎の本格インド料理</title>
+  <meta name="description" content="ナマステ カリカのメニュー。ランチメニュー（11:00〜15:00限定）とグランドメニュー（終日提供）。チキンカレー、マトンカレー、野菜カレー、シーフード、ナン、スナック、ディナーセット、デザートまで豊富にご用意。English menu available.">
+  <meta name="keywords" content="インド料理 メニュー,宮崎 カレー,ナマステカリカ メニュー,ランチ,ナン,ビリヤニ,Indian menu Miyazaki">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://namastekalika.com/menu.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="メニュー｜ナマステ カリカ 本店">
+  <meta property="og:description" content="ランチメニューとグランドメニュー。本格インド料理を豊富にご用意しています。">
+  <meta property="og:image" content="https://namastekalika.com/images/ogp.jpg">
+  <meta property="og:url" content="https://namastekalika.com/menu.html">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:locale:alternate" content="en_US">
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="apple-touch-icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ローディング画面 -->
+  <div id="loader">
+    <div class="loader-mark">ナマステ カリカ</div>
+    <div class="loader-sub">NAMASTE KALIKA</div>
+    <div class="loader-bar"></div>
+  </div>
+
+  <!-- モバイル用 言語バー（上部固定） -->
+  <div class="mobile-lang-bar">
+    <span class="ml-label" data-i18n="lang.choose">言語を選択 / Choose Language</span>
+    <button data-lang-btn="ja">🇯🇵 日本語</button>
+    <button data-lang-btn="en">🇺🇸 English</button>
+  </div>
+
+  <!-- ヘッダー -->
+  <header id="header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">
+        <span class="logo-main">ナマステ カリカ</span>
+        <span class="logo-sub">Namaste Kalika</span>
+      </a>
+      <nav>
+        <ul id="navMenu">
+          <li><a href="index.html#hero" data-i18n="nav.home">ホーム</a></li>
+          <li><a href="menu.html" data-i18n="nav.menu">メニュー</a></li>
+          <li><a href="index.html#about" data-i18n="nav.about">店舗紹介</a></li>
+          <li><a href="index.html#gallery" data-i18n="nav.gallery">ギャラリー</a></li>
+          <li><a href="index.html#access" data-i18n="nav.access">アクセス</a></li>
+          <li><a href="index.html#contact" data-i18n="nav.reserve">ご予約</a></li>
+          <li><a href="index.html#curry" data-i18n="nav.curry">カレー</a></li>
+          <li><a href="index.html#courses" data-i18n="nav.courses">コース</a></li>
+          <li><a href="https://www.ubereats.com/jp/store/%E3%83%8A%E3%83%9E%E3%82%B9%E3%83%86-%E3%82%AB%E3%83%AA%E3%82%AB-namaste-kalika/2wbSjC1jSwa8sBppzB5b-g" target="_blank" rel="noopener" class="nav-uber" data-i18n="nav.uber">Uber Eats</a></li>
+        </ul>
+      </nav>
+      <div class="lang-switch">
+        <button data-lang-btn="ja"><span class="flag">🇯🇵</span> 日本語</button>
+        <button data-lang-btn="en"><span class="flag">🇺🇸</span> EN</button>
+      </div>
+      <button class="burger" id="burger" aria-label="メニューを開く">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ページヒーロー -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-eyebrow" data-i18n="menu.pageSub">Our Menu</span>
+      <h1 data-i18n="menu.pageTitle">メニュー</h1>
+    </div>
+  </section>
+
+  <!-- メニュー本体 -->
+  <section class="menu-page">
+    <div class="container">
+
+      <!-- 検索バー -->
+      <div class="menu-search-wrap">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="menuSearch" data-i18n-placeholder="menu.searchPlaceholder"
+               placeholder="メニューを検索（例：バターチキン、ナン、カレー）" autocomplete="off">
+      </div>
+
+      <!-- カテゴリーフィルター（スティッキー） -->
+      <div class="cat-filter">
+        <div class="container cat-filter-inner">
+          <button class="cat-btn active" data-cat="all" data-i18n="cat.all">すべて</button>
+          <button class="cat-btn" data-cat="lunch" data-i18n="cat.lunch">ランチ</button>
+          <button class="cat-btn" data-cat="chicken" data-i18n="cat.chicken">チキンカレー</button>
+          <button class="cat-btn" data-cat="mutton" data-i18n="cat.mutton">マトンカレー</button>
+          <button class="cat-btn" data-cat="vegetable" data-i18n="cat.vegetable">野菜カレー</button>
+          <button class="cat-btn" data-cat="seafood" data-i18n="cat.seafood">シーフード</button>
+          <button class="cat-btn" data-cat="nan" data-i18n="cat.nan">ナン・パン</button>
+          <button class="cat-btn" data-cat="snacks" data-i18n="cat.snacks">スナック</button>
+          <button class="cat-btn" data-cat="dinnerset" data-i18n="cat.dinnerset">ディナーセット</button>
+          <button class="cat-btn" data-cat="dessert" data-i18n="cat.dessert">デザート</button>
+        </div>
+      </div>
+
+      <!-- メニュー描画先 -->
+      <div id="menuRoot"></div>
+      <div id="menuNoResults" class="menu-no-results" data-i18n="menu.noResults">該当するメニューが見つかりませんでした。</div>
+
+      <!-- Uber Eats CTA -->
+      <div class="menu-uber-cta">
+        <a href="https://www.ubereats.com/jp/store/%E3%83%8A%E3%83%9E%E3%82%B9%E3%83%86-%E3%82%AB%E3%83%AA%E3%82%AB-namaste-kalika/2wbSjC1jSwa8sBppzB5b-g"
+           target="_blank" rel="noopener" class="btn btn-red" data-i18n="menu.uberBtn">Uber Eatsで注文する</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- フッター -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="logo-main">ナマステ カリカ</span>
+          <span class="logo-sub">Namaste Kalika</span>
+          <p data-i18n="footer.brandDesc">宮崎市で本格インド料理をご提供。本場の味を、心を込めて。</p>
+          <div class="footer-social">
+            <a href="#" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">IG</a>
+            <a href="https://www.ubereats.com/jp/store/%E3%83%8A%E3%83%9E%E3%82%B9%E3%83%86-%E3%82%AB%E3%83%AA%E3%82%AB-namaste-kalika/2wbSjC1jSwa8sBppzB5b-g" target="_blank" rel="noopener" aria-label="Uber Eats" title="Uber Eats">UE</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5 data-i18n="footer.infoTitle">店舗情報</h5>
+          <ul>
+            <li data-i18n="access.shopName">ナマステ カリカ 本店</li>
+            <li>〒880-0856</li>
+            <li data-i18n="access.addr" data-i18n-html>宮崎県宮崎市日の出町5-1</li>
+            <li><a href="tel:0985729112">TEL: 0985-72-9112</a></li>
+            <li data-i18n="footer.hours">営業時間: 10:30〜</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5 data-i18n="footer.menuTitle">メニュー</h5>
+          <ul>
+            <li><a href="index.html" data-i18n="nav.home">ホーム</a></li>
+            <li><a href="menu.html" data-i18n="nav.menu">メニュー</a></li>
+            <li><a href="index.html#about" data-i18n="nav.about">店舗紹介</a></li>
+            <li><a href="index.html#gallery" data-i18n="nav.gallery">ギャラリー</a></li>
+            <li><a href="index.html#access" data-i18n="nav.access">アクセス</a></li>
+            <li><a href="index.html#contact" data-i18n="nav.reserve">ご予約</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom" data-i18n="footer.copyright">© Namaste Kalika. All Rights Reserved.</div>
+    </div>
+  </footer>
+
+  <a href="tel:0985729112" class="float-call" aria-label="電話する">📞</a>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/menu-data.js"></script>
+  <script src="js/menu-render.js"></script>
+  <script src="js/lang.js"></script>
+  <script src="js/img-labels.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

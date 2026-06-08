@@ -1,0 +1,176 @@
+===========================================================
+  画像アップロード一覧 / Image Upload Guide
+  ナマステ カリカ
+===========================================================
+
+各メニューの写真は images/menu-items/ フォルダに、
+下記のファイル名で保存してください。
+（VS Code で同じファイル名の画像を上書きするだけでOK）
+Save each photo into images/menu-items/ using the
+filename shown below. Just overwrite the same filename.
+
+推奨サイズ / Recommended size: 600 x 440 px (横長 / landscape)
+
+-----------------------------------------------------------
+【注目の人気メニュー / Featured Popular Dishes】
+-----------------------------------------------------------
+  featured1.jpg  … チーズナン / Cheese Naan  ¥600
+  featured2.jpg  … チキンビリヤニ / Chicken Biryani  ¥1300
+  featured3.jpg  … タンドリーチキン / Tandoori Chicken  ¥1200
+  featured4.jpg  … ナンセット / Nan Set  ¥1300
+  featured5.jpg  … チキンティッカ / Chicken Tikka  ¥1000
+  featured6.jpg  … バターチキンカレー / Butter Chicken  ¥980
+
+-----------------------------------------------------------
+【ランチメニュー / Lunch Menu】
+-----------------------------------------------------------
+  1.jpg    … 選べるカレーセット / Choice Curry Set  ¥890
+  2.jpg    … Gセット / G Set  ¥1020
+  3.jpg    … ナマステセット / Namaste Set  ¥1510
+  4.jpg    … チーズナンセット / Cheese Naan Set  ¥1500
+  5.jpg    … バーベキューセット / Barbecue Set  ¥1700
+  6.jpg    … お子様セット / Kids Set  ¥550
+  7.jpg    … シングルカレーライスセット / Single Curry Rice Set  ¥950
+  8.jpg    … 学生セット / Student Set  ¥890
+  9.jpg    … ガパオライスセット / Gapao Rice Set  ¥1020
+  10.jpg   … ディナーセット（ランチ版） / Dinner Set (Lunch Version)  ¥1200
+
+-----------------------------------------------------------
+【チキンカレー / Chicken Curry】
+-----------------------------------------------------------
+  11.jpg   … バターチキンカレー / Butter Chicken Curry  ¥980
+  12.jpg   … チキンマサラ / Chicken Masala  ¥950
+  13.jpg   … チキンティッカマサラ / Chicken Tikka Masala  ¥950
+  14.jpg   … サグチキン / Sag Chicken  ¥900
+  15.jpg   … チキンドピアザ / Chicken Do Pyaza  ¥900
+  16.jpg   … キーマカレー / Keema Curry  ¥900
+  17.jpg   … キーマ カスリメティ / Keema Kasturi Methi  ¥900
+  18.jpg   … サグキーマ / Sag Keema  ¥900
+  19.jpg   … キーママタル / Keema Matar  ¥900
+  20.jpg   … チキンスープカレー / Chicken Soup Curry  ¥900
+
+-----------------------------------------------------------
+【マトンカレー / Mutton Curry】
+-----------------------------------------------------------
+  21.jpg   … マトンマサラ / Mutton Masala  ¥950
+  22.jpg   … マトンドピアザ / Mutton Do Pyaza  ¥950
+  23.jpg   … マトンサグ / Mutton Sag  ¥950
+  24.jpg   … マトンタワ / Mutton Tawa  ¥950
+  25.jpg   … マトンローガンジョシュ / Mutton Rogan Josh  ¥900
+  26.jpg   … マトンシークカバブマサラ / Mutton Seekh Kabab Masala  ¥900
+
+-----------------------------------------------------------
+【野菜カレー / Vegetable Curry】
+-----------------------------------------------------------
+  27.jpg   … ミックスベジタブルカレー / Mix Vegetable Curry  ¥900
+  28.jpg   … パニールサグ / Paneer Sag  ¥900
+  29.jpg   … パニールバターマサラ / Paneer Butter Masala  ¥900
+  30.jpg   … マタルパニール / Mutter Paneer  ¥900
+  31.jpg   … チャナマサラ / Chana Masala  ¥880
+  32.jpg   … ミックスダルカレー / Mix Dal Curry  ¥880
+  33.jpg   … バイガンバルタ / Baigan Bharta  ¥880
+  34.jpg   … アルバイガン / Alu Baigan  ¥880
+  35.jpg   … マタルマッシュルームカレー / Mutter Mushroom Curry  ¥880
+  36.jpg   … アルビンディマサラ / Alu Bhindi Masala  ¥880
+
+-----------------------------------------------------------
+【シーフードカレー / Seafood Curry】
+-----------------------------------------------------------
+  37.jpg   … ミックスシーフードカレー / Mix Seafood Curry  ¥950
+  38.jpg   … プラウンカレー / Prawn Curry  ¥950
+  39.jpg   … フィッシュカレー / Fish Curry  ¥950
+  40.jpg   … フィッシュマサラ / Fish Masala  ¥950
+  41.jpg   … シーフードマサラ / Seafood Masala  ¥950
+  42.jpg   … サグプラウン / Sag Prawn  ¥950
+  43.jpg   … サグシーフード / Sag Seafood  ¥950
+  44.jpg   … プラウンマサラ / Prawn Masala  ¥950
+
+-----------------------------------------------------------
+【ナン・パン / Naan & Bread】
+-----------------------------------------------------------
+  45.jpg   … プレーンナン / Plain Naan  ¥280
+  46.jpg   … ガーリックナン / Garlic Naan  ¥300
+  47.jpg   … オニオンナン / Onion Naan  ¥300
+  48.jpg   … チーズナン / Cheese Naan  ¥550
+  49.jpg   … アルナン / Alu Naan  ¥400
+  50.jpg   … カブリナン / Kabuli Naan  ¥450
+  51.jpg   … ゴマナン / Goma (Sesame) Naan  ¥380
+  52.jpg   … キーマナン / Keema Naan  ¥500
+  53.jpg   … あんこナン / Anko (Red Bean) Naan  ¥380
+  54.jpg   … ロティ / Roti  ¥300
+  55.jpg   … バトゥーラ / Bhatura  ¥380
+  56.jpg   … パロタ / Parota  ¥300
+  57.jpg   … ピザ / Pizza  ¥550
+
+-----------------------------------------------------------
+【スナック / Snacks】
+-----------------------------------------------------------
+  58.jpg   … パパド / Papad  ¥200
+  59.jpg   … マサラパパド / Masala Papad  ¥300
+  60.jpg   … サモサ / Samosa  ¥500
+  61.jpg   … チキンパコダ / Chicken Pakoda  ¥550
+  62.jpg   … アルパコダ / Alu Pakoda  ¥480
+  63.jpg   … オニオンパコダ / Onion Pakoda  ¥480
+  64.jpg   … ナスパコダ / Nas (Eggplant) Pakoda  ¥400
+  65.jpg   … モモ / Momo  ¥600
+  66.jpg   … 枝豆 / Edamame  ¥380
+  67.jpg   … エビトースト / Ebi (Shrimp) Toast  ¥600
+  68.jpg   … しめじとソーセージ炒め / Shimeji & Sausage Itame  ¥600
+  69.jpg   … ポテトチップス / Potato Chips  ¥300
+  70.jpg   … シーフードとカシューナッツ炒め / Seafood & Cashew Itame  ¥600
+  71.jpg   … トマト炒め / Tomato Itame  ¥300
+
+-----------------------------------------------------------
+【ディナーセット / Dinner Sets】
+-----------------------------------------------------------
+  72.jpg   … シングルカレーセット / Single Curry Set  ¥1100
+  73.jpg   … ダブルカレーセット / Double Curry Set  ¥1200
+  74.jpg   … チーズナンセット / Cheese Naan Set  ¥1400
+  75.jpg   … ガーリックナンセット / Garlic Naan Set  ¥1300
+  76.jpg   … カップルセット / Couple Set  ¥3400
+  77.jpg   … バーベキューセット / Barbecue Set  ¥1600
+
+-----------------------------------------------------------
+【デザート / Desserts】
+-----------------------------------------------------------
+  78.jpg   … マンゴープリン / Mango Pudding  ¥300
+  79.jpg   … 抹茶アイスクリーム / Matcha Ice Cream  ¥280
+  80.jpg   … バニラアイスクリーム / Vanilla Ice Cream  ¥280
+
+-----------------------------------------------------------
+【トップページ 人気メニュー / Homepage Popular Dishes】
+-----------------------------------------------------------
+  ※ これらは images/ フォルダ直下です（menu-items ではありません）
+  images/dish1.jpg … バターチキンカレー / Butter Chicken Curry
+  images/dish2.jpg … チキンティッカ / Chicken Tikka
+  images/dish3.jpg … ナンセット / Naan Set
+  images/dish4.jpg … チーズナン / Cheese Naan
+  images/dish5.jpg … ビリヤニ / Biryani
+  images/dish6.jpg … タンドリーチキン / Tandoori Chicken
+
+===========================================================
+  ヒント / Tip:
+  ウェブサイト上の各料理カードには、その料理に必要な
+  ファイル名が黄色いラベルで表示されています。
+  実際の写真を入れると、そのラベルは見えなくなります。
+  Each dish card on the site shows its required filename
+  as a yellow label. Once you upload the real photo, the
+  label disappears behind it.
+===========================================================
+===========================================================
+  【ラベルの自動非表示について / About the labels】
+===========================================================
+各料理カードに表示されている黄色いファイル名ラベルは、
+「仮画像」のときだけ表示されます。
+
+実際の写真（仮画像と違うサイズ）をアップロードすると、
+ラベルは自動的に消えます。コードの編集は不要です。
+
+The yellow filename labels only appear while the image is
+still a placeholder. As soon as you upload a real photo
+(any size other than exactly 600x440), the label
+disappears automatically — no code editing needed.
+
+※ ヒント: 写真は 600x440 ちょうどのサイズを避けてください
+   （通常の写真はこのサイズになることはまずありません）。
+===========================================================
